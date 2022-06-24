@@ -11288,7 +11288,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("/assets/IMG_1729.PNG");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11422,6 +11422,7 @@ p {
 
 .intro {
   position: relative;
+  text-align: center;
 }
 @media (min-width: 992px) {
   .intro .intro-img {
@@ -11430,9 +11431,9 @@ p {
   }
   .intro .intro-text {
     left: 0;
-    width: 60%;
+    width: 100%;
     margin-top: 3rem;
-    position: absolute;
+    /* position: absolute; */
   }
   .intro .intro-text .intro-button {
     width: 100%;
@@ -11443,7 +11444,7 @@ p {
 }
 @media (min-width: 1200px) {
   .intro .intro-text {
-    width: 45%;
+    width: 100%;
   }
 }
 
